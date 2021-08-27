@@ -63,7 +63,11 @@ namespace Resonant
         {
             foreach (Collision c in CollisionManager.GetCollisions(this))
             {
-                if (c.is_colliding && c.normal.Y != 0 && c.collided.Stationary)
+                if (c.is_colliding && c.normal.Y == 1 && c.collided.Stationary && Velocity.Y > 0)
+                {
+                    Velocity = new Vector2(Velocity.X, 0);
+                }
+                else if (c.is_colliding && c.normal.Y == -1 && c.collided.Stationary && Velocity.Y < 0)
                 {
                     Velocity = new Vector2(Velocity.X, 0);
                 }
