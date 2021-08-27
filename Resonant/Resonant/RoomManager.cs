@@ -71,10 +71,7 @@ namespace Resonant
                     if (!r.Loaded)
                     {
                         r.LoadPlatforms();
-                        DateTime start = DateTime.Now;
                         MapGraph.Update(r.Platforms);
-                        TimeSpan time = DateTime.Now - start;
-                        Console.WriteLine(time.TotalSeconds);
                     }
                 }
             }

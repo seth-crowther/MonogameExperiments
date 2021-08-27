@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/sethc/source/repos/Resonant/Resonant/Content/Fonts/Arial.spritefont</SourceFile>
+  <SourceFile>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/Fonts/Arial.spritefont</SourceFile>
   <SourceTime>2021-06-12T10:02:18.7309241+01:00</SourceTime>
-  <DestFile>C:/Users/sethc/source/repos/Resonant/Resonant/Content/bin/DesktopGL/Content/Fonts/Arial.xnb</DestFile>
-  <DestTime>2021-07-08T23:03:34.9106268+01:00</DestTime>
+  <DestFile>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/bin/DesktopGL/Content/Fonts/Arial.xnb</DestFile>
+  <DestTime>2021-08-27T21:09:30.7282594+01:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

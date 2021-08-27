@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/sethc/source/repos/Resonant/Resonant/Content/Sprites/Gun.png</SourceFile>
+  <SourceFile>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/Sprites/Gun.png</SourceFile>
   <SourceTime>2021-06-24T18:21:34.4693602+01:00</SourceTime>
-  <DestFile>C:/Users/sethc/source/repos/Resonant/Resonant/Content/bin/DesktopGL/Content/Sprites/Gun.xnb</DestFile>
-  <DestTime>2021-07-08T23:03:43.3002627+01:00</DestTime>
+  <DestFile>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/bin/DesktopGL/Content/Sprites/Gun.xnb</DestFile>
+  <DestTime>2021-08-27T21:09:40.9410012+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

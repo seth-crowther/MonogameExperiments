@@ -4,12 +4,12 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/sethc/source/repos/Resonant/Resonant/Content/Fonts/Arial.spritefont</File>
-    <File>C:/Users/sethc/source/repos/Resonant/Resonant/Content/Music/WellRested.mp3</File>
-    <File>C:/Users/sethc/source/repos/Resonant/Resonant/Content/SoundFX/Clap.mp3</File>
-    <File>C:/Users/sethc/source/repos/Resonant/Resonant/Content/Sprites/Gun.png</File>
-    <File>C:/Users/sethc/source/repos/Resonant/Resonant/Content/Sprites/MainMenu.png</File>
-    <File>C:/Users/sethc/source/repos/Resonant/Resonant/Content/Sprites/Sarge.png</File>
+    <File>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/Fonts/Arial.spritefont</File>
+    <File>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/Music/WellRested.mp3</File>
+    <File>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/SoundFX/Clap.mp3</File>
+    <File>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/Sprites/Gun.png</File>
+    <File>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/Sprites/MainMenu.png</File>
+    <File>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/Sprites/Sarge.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

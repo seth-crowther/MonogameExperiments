@@ -137,3 +137,41 @@ C:\Users\sethc\source\repos\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.d
 C:\Users\sethc\source\repos\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.pdb
 C:\Users\sethc\source\repos\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.genruntimeconfig.cache
 C:\Users\sethc\source\repos\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Sprites\MainMenu.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Music\Kero Kero Bonito - Well Rested.ogg
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Music\Kero Kero Bonito - Well Rested.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\player.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Sprites\Bullet.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Sprites\SargeRight.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Fonts\Arial.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Music\WellRested.ogg
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Music\WellRested.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\SoundFX\Clap.ogg
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\SoundFX\Clap.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Sprites\Gun.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Sprites\MainMenu.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Content\Sprites\Sarge.xnb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Resonant.exe
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Resonant.deps.json
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Resonant.runtimeconfig.json
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Resonant.runtimeconfig.dev.json
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Resonant.dll
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Resonant.pdb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\C5.dll
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.csproj.AssemblyReference.cache
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.AssemblyInfoInputs.cache
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.AssemblyInfo.cs
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.csproj.CoreCompileInputs.cache
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.csproj.CopyComplete
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.dll
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.pdb
+C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\obj\Debug\netcoreapp3.1\Resonant.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sethc\\source\\repos\\Resonant\\Resonant\\Resonant.csproj": {}
+    "C:\\Users\\sethc\\Desktop\\Resonant Git Repo\\Resonant\\Resonant\\Resonant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sethc\\source\\repos\\Resonant\\Resonant\\Resonant.csproj": {
+    "C:\\Users\\sethc\\Desktop\\Resonant Git Repo\\Resonant\\Resonant\\Resonant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sethc\\source\\repos\\Resonant\\Resonant\\Resonant.csproj",
+        "projectUniqueName": "C:\\Users\\sethc\\Desktop\\Resonant Git Repo\\Resonant\\Resonant\\Resonant.csproj",
         "projectName": "Resonant",
-        "projectPath": "C:\\Users\\sethc\\source\\repos\\Resonant\\Resonant\\Resonant.csproj",
+        "projectPath": "C:\\Users\\sethc\\Desktop\\Resonant Git Repo\\Resonant\\Resonant\\Resonant.csproj",
         "packagesPath": "C:\\Users\\sethc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sethc\\source\\repos\\Resonant\\Resonant\\obj\\",
+        "outputPath": "C:\\Users\\sethc\\Desktop\\Resonant Git Repo\\Resonant\\Resonant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sethc\\AppData\\Roaming\\NuGet\\NuGet.Config",

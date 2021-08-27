@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/sethc/source/repos/Resonant/Resonant/Content/Sprites/Sarge.png</SourceFile>
+  <SourceFile>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/Sprites/Sarge.png</SourceFile>
   <SourceTime>2021-06-22T22:53:51.0118826+01:00</SourceTime>
-  <DestFile>C:/Users/sethc/source/repos/Resonant/Resonant/Content/bin/DesktopGL/Content/Sprites/Sarge.xnb</DestFile>
-  <DestTime>2021-07-08T23:03:43.304252+01:00</DestTime>
+  <DestFile>C:/Users/sethc/Desktop/Resonant Git Repo/Resonant/Resonant/Content/bin/DesktopGL/Content/Sprites/Sarge.xnb</DestFile>
+  <DestTime>2021-08-27T21:09:41.129321+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T17:17:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

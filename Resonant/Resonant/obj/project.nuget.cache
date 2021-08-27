@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0DFU6esDGPR0pP0/zErjHOajx/jFO7nYjaANyQsfTIjcntO2l0zB1KUzdl82gMhTX9SjSy7tRl6t5+egUwgIEg==",
+  "dgSpecHash": "fwF1/H30a/rs1EHz0bk1KMh1O8vdVg+mdNQoXalWhHDqhs9MZWzDpOwjzxvq1M40UTBnV+MbotbS3gDVx3brIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sethc\\source\\repos\\Resonant\\Resonant\\Resonant.csproj",
+  "projectFilePath": "C:\\Users\\sethc\\Desktop\\Resonant Git Repo\\Resonant\\Resonant\\Resonant.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sethc\\.nuget\\packages\\c5\\2.5.3\\c5.2.5.3.nupkg.sha512",
     "C:\\Users\\sethc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
