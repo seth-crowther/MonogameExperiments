@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/sethc/source/repos/Resonant/Resonant/Content/Fonts/Arial.spritefont","C:/Users/sethc/source/repos/Resonant/Resonant/Content/bin/DesktopGL/Content/Fonts/Arial.xnb","FontDescriptionProcessor","SpriteFontContent",2421,267298,0.4903192
+"C:/Users/sethc/source/repos/Resonant/Resonant/Content/Music/WellRested.mp3","C:/Users/sethc/source/repos/Resonant/Resonant/Content/bin/DesktopGL/Content/Music/WellRested.xnb","SongProcessor","SongContent",17233004,128,8.120839
+"C:/Users/sethc/source/repos/Resonant/Resonant/Content/SoundFX/Clap.mp3","C:/Users/sethc/source/repos/Resonant/Resonant/Content/bin/DesktopGL/Content/SoundFX/Clap.xnb","SongProcessor","SongContent",11421,122,0.1961989
+"C:/Users/sethc/source/repos/Resonant/Resonant/Content/Sprites/MainMenu.png","C:/Users/sethc/source/repos/Resonant/Resonant/Content/bin/DesktopGL/Content/Sprites/MainMenu.xnb","TextureProcessor","Texture2DContent",12561,8294485,0.2982952

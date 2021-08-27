@@ -1,0 +1,28 @@
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\SonicWarfare.exe
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\SonicWarfare.deps.json
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\SonicWarfare.runtimeconfig.json
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\SonicWarfare.runtimeconfig.dev.json
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\SonicWarfare.dll
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\SonicWarfare.pdb
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\obj\Debug\netcoreapp3.1\SonicWarfare.csprojAssemblyReference.cache
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\obj\Debug\netcoreapp3.1\SonicWarfare.AssemblyInfoInputs.cache
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\obj\Debug\netcoreapp3.1\SonicWarfare.AssemblyInfo.cs
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\obj\Debug\netcoreapp3.1\SonicWarfare.csproj.CopyComplete
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\obj\Debug\netcoreapp3.1\SonicWarfare.dll
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\obj\Debug\netcoreapp3.1\SonicWarfare.pdb
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\obj\Debug\netcoreapp3.1\SonicWarfare.genruntimeconfig.cache
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\Content\player.xnb
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\Content\Sprites\player.xnb
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\obj\Debug\netcoreapp3.1\SonicWarfare.csproj.CoreCompileInputs.cache
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\Content\Music\Kero Kero Bonito - Well Rested.ogg
+C:\Users\Seth\source\repos\SonicWarfare\SonicWarfare\bin\Debug\netcoreapp3.1\Content\Music\Kero Kero Bonito - Well Rested.xnb
