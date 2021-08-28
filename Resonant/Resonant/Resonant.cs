@@ -34,8 +34,6 @@ namespace Resonant
             Window.IsBorderless = true;
             _graphics.ApplyChanges();
 
-            screenManager.Initialize();
-
             base.Initialize();
         }
 
@@ -44,6 +42,7 @@ namespace Resonant
             spriteBatch = new SpriteBatch(GraphicsDevice);
             screenManager.LoadContent(Globals.Content);
             Globals.arial = Content.Load<SpriteFont>("Fonts/Arial");
+            screenManager.Initialize();
         }
 
         protected override void Update(GameTime gameTime)

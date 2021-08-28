@@ -66,7 +66,7 @@ namespace Resonant
             TopScreen.Draw(spriteBatch);
             if (transitionIsActive)
             {
-                spriteBatch.Begin(SpriteSortMode.Texture, BlendState.NonPremultiplied);
+                spriteBatch.Begin();
                 spriteBatch.Draw(black, new Rectangle(new Point(0, 0), new Point((int)Globals.ScreenDims.X, (int)Globals.ScreenDims.Y)), Color.White * alpha);
                 spriteBatch.End();
             }

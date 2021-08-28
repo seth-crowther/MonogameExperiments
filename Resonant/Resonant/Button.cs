@@ -11,8 +11,7 @@ namespace Resonant
     {
         private Vector2 position;
         private Vector2 dimensions;
-        private readonly string label;
-
+        private Text label;
         private readonly Texture2D fill;
         private readonly float rotation;
         private Vector2 rotationOrigin;
@@ -27,13 +26,20 @@ namespace Resonant
         {
             position = pos;
             dimensions = dims;
-            label = text;
+            Rectangle bounds = new Rectangle(new Point((int)position.X, (int)position.Y), new Point((int)dimensions.X, (int)dimensions.Y));
+            label = new Text(text, bounds, Text.Alignment.Centre);
+
             fill = new Texture2D(Globals.GraphicsDevice, 1, 1);
-            fill.SetData(new[] { Color.CornflowerBlue });
+            fill.SetData(new[] { Color.Bisque });
 
             rotation = 0.0f;
             rotationOrigin = Vector2.Zero;
             scale = dims;
+        }
+
+        public void Initialize()
+        {
+            label.Initialize();
         }
 
         public bool IsClicked()
@@ -52,7 +58,7 @@ namespace Resonant
         public void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(fill, position, null, Color.White, rotation, rotationOrigin, scale, SpriteEffects.None, 0.0f);
-            spriteBatch.DrawString(Globals.arial, label, position, Color.White); //Fonts should be globally accessible
+            label.Draw(spriteBatch);
         }
     }
 }

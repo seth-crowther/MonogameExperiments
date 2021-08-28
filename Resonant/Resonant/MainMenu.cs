@@ -17,7 +17,8 @@ namespace Resonant
         }
         public override void Initialize()
         {
-            play = new Button(new Vector2(760, 390), new Vector2(400, 300), "play gaem");
+            play = new Button(new Vector2(760, 390), new Vector2(400, 150), "Let's go");
+            play.Initialize();
         }
 
         public override void LoadContent(ContentManager content)
