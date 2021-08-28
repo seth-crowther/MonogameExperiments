@@ -13,6 +13,8 @@ namespace Resonant
         private Alignment alignment;
         private Vector2 drawPos;
         private Vector2 textSize;
+        private Vector2 offset;
+        private Color color;
 
         public enum Alignment
         {
@@ -20,14 +22,17 @@ namespace Resonant
             Left,
             Right,
             Top,
-            Bottom
+            Bottom,
+            BottomRight
         }
 
-        public Text(string t, Rectangle b, Alignment a)
+        public Text(string text, Rectangle bounds, Alignment alignment, Vector2 offset, Color color)
         {
-            text = t;
-            bounds = b;
-            alignment = a;
+            this.text = text;
+            this.bounds = bounds;
+            this.alignment = alignment;
+            this.offset = offset;
+            this.color = color;
         }
 
         public void Initialize()
@@ -39,14 +44,26 @@ namespace Resonant
                 case Alignment.Centre:
                     drawPos = new Vector2(
                         bounds.Left + ((bounds.Width - textSize.X) / 2),
-                        bounds.Top + ((bounds.Height - textSize.Y) / 2));
+                        bounds.Top + ((bounds.Height - textSize.Y) / 2)) + offset;
+                    break;
+
+                case Alignment.BottomRight:
+                    drawPos = new Vector2(
+                        bounds.Right - textSize.X,
+                        bounds.Bottom - textSize.Y) + offset;
                     break;
             }
         }
 
+        public void UpdateText(string newText)
+        {
+            text = newText;
+            Initialize();
+        }
+
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.DrawString(Globals.arial, text, drawPos, Color.Black);
+            spriteBatch.DrawString(Globals.arial, text, drawPos, color);
         }
     }
 }

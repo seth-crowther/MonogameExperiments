@@ -50,9 +50,9 @@ namespace Resonant
         public override void LoadContent(ContentManager Content)
         {
             EntityManager.LoadContent(Content);
-            hud.LoadContent(Content);
             MusicManager.LoadContent(Content);
             BulletManager.LoadContent(Content);
+            hud.Initialize();
         }
 
         public override void Update(GameTime gameTime)

@@ -13,35 +13,36 @@ namespace Resonant
     {
         private Player Player;
         private MusicManager MusicManager;
-        private Vector2 pos;
         private string bulletsLeft;
-        private Vector2 numberSize;
+        private Text bulletsInMag, beatCounter, comboCounter;
 
         public HUD(Player p, MusicManager mm)
         {
             Player = p;
             MusicManager = mm;
-            pos = new Vector2(Globals.ScreenDims.X - 50, Globals.ScreenDims.Y - 50);
             bulletsLeft = Player.Magazine.ToString();
+
+            Vector2 offset = new Vector2(Globals.ScreenDims.X * 0.05f, Globals.ScreenDims.Y * 0.05f) * -1f;
+            bulletsInMag = new Text(bulletsLeft, new Rectangle(new Point(0, 0), new Point((int)Globals.ScreenDims.X, (int)Globals.ScreenDims.Y)), Text.Alignment.BottomRight, offset, Color.White);
         }
-        public void LoadContent(ContentManager content)
+        public void Initialize()
         {
-            Globals.arial = content.Load<SpriteFont>("Fonts/Arial");
-            numberSize = Globals.arial.MeasureString(bulletsLeft);
+            bulletsInMag.Initialize();
+            //beatCounter.Initialize();
+            //comboCounter.Initialize();
         }
         public void Update()
         {
-            //MeasureString function is quite expensive so this block means it is only calculated when the text changes.
             if (Player.Magazine.ToString() != bulletsLeft)
             {
-                numberSize = Globals.arial.MeasureString(bulletsLeft);
+                bulletsInMag.UpdateText(bulletsLeft);
             }
             bulletsLeft = Player.Magazine.ToString();
         }
         public void Draw(SpriteBatch spriteBatch)
         {
             //Magazine counter
-            spriteBatch.DrawString(Globals.arial, bulletsLeft, pos - numberSize, Color.White);
+            bulletsInMag.Draw(spriteBatch);
             spriteBatch.DrawString(Globals.arial, "Beat: " + MusicManager.Beat, new Vector2(100, 900), Color.White);
             spriteBatch.DrawString(Globals.arial, "Combo: " + MusicManager.Combo, new Vector2(100, 300), Color.White);
         }

@@ -27,7 +27,7 @@ namespace Resonant
             position = pos;
             dimensions = dims;
             Rectangle bounds = new Rectangle(new Point((int)position.X, (int)position.Y), new Point((int)dimensions.X, (int)dimensions.Y));
-            label = new Text(text, bounds, Text.Alignment.Centre);
+            label = new Text(text, bounds, Text.Alignment.Centre, Vector2.Zero, Color.Black);
 
             fill = new Texture2D(Globals.GraphicsDevice, 1, 1);
             fill.SetData(new[] { Color.Bisque });
