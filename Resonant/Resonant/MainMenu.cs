@@ -11,14 +11,18 @@ namespace Resonant
     {
         private Texture2D mainmenu;
         private Button play;
+        private Button characterSelect;
         public MainMenu() : base()
         {
 
         }
         public override void Initialize()
         {
-            play = new Button(new Vector2(760, 390), new Vector2(400, 150), "Let's go");
+            play = new Button(new Vector2(760, 390), "Let's go");
             play.Initialize();
+
+            characterSelect = new Button(play.Position + new Vector2(0, 200), "Choose your character");
+            characterSelect.Initialize();
         }
 
         public override void LoadContent(ContentManager content)

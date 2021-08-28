@@ -24,7 +24,7 @@ namespace Resonant
         {
             for (int i = 0; i < NumRoomLayouts; i++)
             {
-                string platforms = File.ReadAllText(@"C:\Users\sethc\source\repos\Resonant\Resonant\Content\Levels\Room" + i + ".json");
+                string platforms = File.ReadAllText(@"C:\Users\sethc\Desktop\Resonant Git Repo\Resonant\Resonant\Content\Levels\Room" + i + ".json");
                 dynamic jsonFile = JsonConvert.DeserializeObject(platforms);
 
                 if (RoomLayouts[i] == null)

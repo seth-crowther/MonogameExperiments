@@ -8,7 +8,7 @@ namespace Resonant
 {
     public class Text
     {
-        private string text;
+        public string text { get; private set; }
         private Rectangle bounds;
         private Alignment alignment;
         private Vector2 drawPos;
@@ -26,12 +26,9 @@ namespace Resonant
             BottomRight
         }
 
-        public Text(string text, Rectangle bounds, Alignment alignment, Vector2 offset, Color color)
+        public Text(string text, Color color)
         {
             this.text = text;
-            this.bounds = bounds;
-            this.alignment = alignment;
-            this.offset = offset;
             this.color = color;
         }
 
@@ -39,6 +36,13 @@ namespace Resonant
         {
             textSize = Globals.arial.MeasureString(text);
 
+            
+        }
+        public void Align(Rectangle bounds, Vector2 offset, Alignment alignment)
+        {
+            this.alignment = alignment;
+            this.bounds = bounds;
+            this.offset = offset;
             switch (alignment)
             {
                 case Alignment.Centre:
@@ -54,7 +58,6 @@ namespace Resonant
                     break;
             }
         }
-
         public void UpdateText(string newText)
         {
             text = newText;

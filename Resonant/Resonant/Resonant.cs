@@ -27,6 +27,7 @@ namespace Resonant
         {
             Globals.GraphicsDevice = GraphicsDevice;
             Globals.ScreenDims = new Vector2(GraphicsDevice.DisplayMode.Width, GraphicsDevice.DisplayMode.Height);
+            Globals.arial = Content.Load<SpriteFont>("Fonts/Arial");
 
             //Setting up fullscreen
             _graphics.PreferredBackBufferWidth = (int)Globals.ScreenDims.X;
@@ -41,7 +42,6 @@ namespace Resonant
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
             screenManager.LoadContent(Globals.Content);
-            Globals.arial = Content.Load<SpriteFont>("Fonts/Arial");
             screenManager.Initialize();
         }
 

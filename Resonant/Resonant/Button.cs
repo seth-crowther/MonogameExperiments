@@ -9,7 +9,6 @@ namespace Resonant
 {
     public class Button
     {
-        private Vector2 position;
         private Vector2 dimensions;
         private Text label;
         private readonly Texture2D fill;
@@ -17,24 +16,26 @@ namespace Resonant
         private Vector2 rotationOrigin;
         private Vector2 scale;
 
-        private float Right { get { return position.X + dimensions.X; } }
-        private float Left { get { return position.X; } }
-        private float Top { get { return position.Y; } }
-        private float Bottom { get { return position.Y + dimensions.Y; } }
+        private float Right { get { return Position.X + dimensions.X; } }
+        private float Left { get { return Position.X; } }
+        private float Top { get { return Position.Y; } }
+        private float Bottom { get { return Position.Y + dimensions.Y; } }
+        public Vector2 Position { get; private set; }
 
-        public Button(Vector2 pos, Vector2 dims, string text)
+        public Button(Vector2 pos, string text)
         {
-            position = pos;
-            dimensions = dims;
-            Rectangle bounds = new Rectangle(new Point((int)position.X, (int)position.Y), new Point((int)dimensions.X, (int)dimensions.Y));
-            label = new Text(text, bounds, Text.Alignment.Centre, Vector2.Zero, Color.Black);
+            Position = pos;
+            label = new Text(text, Color.Black);
+            dimensions = Globals.arial.MeasureString(label.text) + new Vector2(50, 50);
+            Rectangle bounds = new Rectangle(new Point((int)Position.X, (int)Position.Y), new Point((int)dimensions.X, (int)dimensions.Y));
+            label.Align(bounds, Vector2.Zero, Text.Alignment.Centre);
 
             fill = new Texture2D(Globals.GraphicsDevice, 1, 1);
             fill.SetData(new[] { Color.Bisque });
 
             rotation = 0.0f;
             rotationOrigin = Vector2.Zero;
-            scale = dims;
+            scale = dimensions;
         }
 
         public void Initialize()
@@ -57,7 +58,7 @@ namespace Resonant
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(fill, position, null, Color.White, rotation, rotationOrigin, scale, SpriteEffects.None, 0.0f);
+            spriteBatch.Draw(fill, Position, null, Color.White, rotation, rotationOrigin, scale, SpriteEffects.None, 0.0f);
             label.Draw(spriteBatch);
         }
     }
