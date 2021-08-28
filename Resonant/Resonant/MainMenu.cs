@@ -29,7 +29,7 @@ namespace Resonant
         {
             if (play.IsClicked())
             {
-                ScreenManager.PopScreen();
+                ScreenManager.ScreenTransition(1f);
             }
         }
 

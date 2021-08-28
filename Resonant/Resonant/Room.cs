@@ -102,14 +102,16 @@ namespace Resonant
             return false;
         }
 
-        public void Unload()
+        public void Unload() //Doesn't remove room from memory - should do this eventually
         {
             if (Loaded)
             {
+                //Removing room's platforms from loadedplatforms
                 foreach (Platform p in Platforms)
                 {
                     foreach (Node n in p.SurfaceNodes)
                     {
+                        //Removing room's nodes from the NavGraph
                         RoomManager.MapGraph.Nodes.Remove(n);
                     }
                     RoomManager.LoadedPlatforms.Remove(p);
