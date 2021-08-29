@@ -8,7 +8,7 @@ namespace Resonant
 {
     public class Text
     {
-        public string text { get; private set; }
+        public string text { get; set; }
         private Rectangle bounds;
         private Alignment alignment;
         private Vector2 drawPos;
@@ -35,8 +35,6 @@ namespace Resonant
         public void Initialize()
         {
             textSize = Globals.arial.MeasureString(text);
-
-            
         }
         public void Align(Rectangle bounds, Vector2 offset, Alignment alignment)
         {
@@ -61,7 +59,8 @@ namespace Resonant
         public void UpdateText(string newText)
         {
             text = newText;
-            Initialize();
+            //Initialize();
+            //Align(bounds, offset, alignment);
         }
 
         public void Draw(SpriteBatch spriteBatch)

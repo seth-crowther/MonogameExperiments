@@ -22,13 +22,13 @@ namespace Resonant
             MusicManager = mm;
             bulletsLeft = Player.Magazine.ToString();
 
-            Vector2 offset = new Vector2(Globals.ScreenDims.X * 0.05f, Globals.ScreenDims.Y * 0.05f) * -1f;
             bulletsInMag = new Text(bulletsLeft, Color.White);
-            bulletsInMag.Align(new Rectangle(new Point(0, 0), new Point((int)Globals.ScreenDims.X, (int)Globals.ScreenDims.Y)), offset, Text.Alignment.BottomRight);
         }
         public void Initialize()
         {
             bulletsInMag.Initialize();
+            Vector2 offset = new Vector2(Globals.ScreenDims.X * 0.05f, Globals.ScreenDims.Y * 0.05f) * -1f;
+            bulletsInMag.Align(new Rectangle(new Point(0, 0), new Point((int)Globals.ScreenDims.X, (int)Globals.ScreenDims.Y)), offset, Text.Alignment.BottomRight);
             //beatCounter.Initialize();
             //comboCounter.Initialize();
         }

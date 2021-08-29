@@ -35,6 +35,7 @@ namespace Resonant
             if (play.IsClicked())
             {
                 ScreenManager.ScreenTransition(1f);
+                characterSelect.UpdateLabel("new text");
             }
         }
 
@@ -43,6 +44,7 @@ namespace Resonant
             spriteBatch.Begin();
             spriteBatch.Draw(mainmenu, new Rectangle(new Point(0,0), new Point((int)Globals.ScreenDims.X, (int)Globals.ScreenDims.Y)), Color.White);
             play.Draw(spriteBatch);
+            characterSelect.Draw(spriteBatch);
             spriteBatch.End();
         }
     }

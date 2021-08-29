@@ -14,7 +14,6 @@ namespace Resonant
         private readonly Texture2D fill;
         private readonly float rotation;
         private Vector2 rotationOrigin;
-        private Vector2 scale;
 
         private float Right { get { return Position.X + dimensions.X; } }
         private float Left { get { return Position.X; } }
@@ -26,21 +25,27 @@ namespace Resonant
         {
             Position = pos;
             label = new Text(text, Color.Black);
-            dimensions = Globals.arial.MeasureString(label.text) + new Vector2(50, 50);
-            Rectangle bounds = new Rectangle(new Point((int)Position.X, (int)Position.Y), new Point((int)dimensions.X, (int)dimensions.Y));
-            label.Align(bounds, Vector2.Zero, Text.Alignment.Centre);
+
+            dimensions = Globals.arial.MeasureString(label.text) + new Vector2(0.05f * Globals.ScreenDims.X, 0.05f * Globals.ScreenDims.Y);
 
             fill = new Texture2D(Globals.GraphicsDevice, 1, 1);
             fill.SetData(new[] { Color.Bisque });
 
             rotation = 0.0f;
             rotationOrigin = Vector2.Zero;
-            scale = dimensions;
         }
 
         public void Initialize()
         {
             label.Initialize();
+            Rectangle bounds = new Rectangle(new Point((int)Position.X, (int)Position.Y), new Point((int)dimensions.X, (int)dimensions.Y));
+            label.Align(bounds, Vector2.Zero, Text.Alignment.Centre);
+        }
+
+        public void UpdateLabel(string newText)
+        {
+            label.UpdateText(newText);
+            dimensions = Globals.arial.MeasureString(label.text) + new Vector2(0.05f * Globals.ScreenDims.X, 0.05f * Globals.ScreenDims.Y);
         }
 
         public bool IsClicked()
@@ -58,7 +63,7 @@ namespace Resonant
 
         public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(fill, Position, null, Color.White, rotation, rotationOrigin, scale, SpriteEffects.None, 0.0f);
+            spriteBatch.Draw(fill, Position, null, Color.White, rotation, rotationOrigin, dimensions, SpriteEffects.None, 0.0f);
             label.Draw(spriteBatch);
         }
     }
