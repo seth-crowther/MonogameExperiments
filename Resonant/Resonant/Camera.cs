@@ -12,7 +12,7 @@ namespace Resonant
     {
         public Matrix Transform { get; private set; }
         //Function to move camera to centre on the player
-        public void Follow(Player p)
+        public void Follow(Character p)
         {
             var position = Matrix.CreateTranslation(
                 -p.Position.X - ((p.Right - p.Left) / 2),

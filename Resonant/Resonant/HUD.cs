@@ -11,12 +11,12 @@ namespace Resonant
 {
     public class HUD
     {
-        private Player Player;
+        private Character Player;
         private MusicManager MusicManager;
         private string bulletsLeft;
         private Text bulletsInMag, beatCounter, comboCounter;
 
-        public HUD(Player p, MusicManager mm)
+        public HUD(Character p, MusicManager mm)
         {
             Player = p;
             MusicManager = mm;

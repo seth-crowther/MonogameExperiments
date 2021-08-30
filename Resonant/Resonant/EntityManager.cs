@@ -9,7 +9,7 @@ namespace Resonant
 {
     public class EntityManager
     {
-        public Player Player { get; private set; }
+        public Character Player { get; private set; }
         private readonly List<Enemy> Enemies;
         public EntityManager(BulletManager bm)
         {
@@ -17,7 +17,7 @@ namespace Resonant
 
             Vector2 pSize = new Vector2(60, 120);
             Vector2 pPos = new Vector2(500 + 7680, -120);
-            Player = new Player(pPos, pSize, bm);
+            Player = new Character(pPos, pSize, bm);
 
             var eSize = new Vector2(60, 120);
             var ePos = new Vector2(800 + 7680, -120);

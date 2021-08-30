@@ -13,7 +13,7 @@ namespace Resonant
     public class MusicManager
     {
         private Song well_rested;
-        private Player Player;
+        private Character Player;
         private BulletManager BulletManager;
 
         private const float tolerance = 0.08f;
@@ -26,7 +26,7 @@ namespace Resonant
         public int Combo { get; protected set; }
         public int Beat { get; protected set; }
 
-        public MusicManager(Player p, BulletManager bm)
+        public MusicManager(Character p, BulletManager bm)
         {
             Player = p;
             BulletManager = bm;

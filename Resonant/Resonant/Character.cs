@@ -9,12 +9,12 @@ using Microsoft.Xna.Framework.Input;
 
 namespace Resonant
 {
-    public class Player : Entity
+    public class Character : Entity
     {
         public bool Direction { get; private set; }
         public Gun Gun { get; private set; }
 
-        public Player(Vector2 pos, Vector2 dims, BulletManager bm) : base(pos, dims, EntityManager)
+        public Character(Vector2 pos, Vector2 dims, BulletManager bm) : base(pos, dims, EntityManager)
         {
             hp = 1000;
             maxMag = 500;

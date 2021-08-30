@@ -17,13 +17,13 @@ namespace Resonant
         public Room CurrentRoom { get { return Rooms[PlayerX, PlayerY]; } } //TODO make this be able to take in an entity and return the room that the entity is in (not just player)
         #endregion Getters and Setters
         #region private attributes
-        private readonly Player player;
+        private readonly Character player;
         private const int mapDimsX = 9;
         private const int mapDimsY = 9;
         public dynamic[] RoomLayouts;
         #endregion private attributes
 
-        public RoomManager(Player p, dynamic[] RoomLayouts)
+        public RoomManager(Character p, dynamic[] RoomLayouts)
         {
             player = p;
             Rooms = new Room[mapDimsX + 1,mapDimsY + 1];

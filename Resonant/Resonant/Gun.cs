@@ -10,7 +10,7 @@ namespace Resonant
 {
     public class Gun
     {
-        private Player Player;
+        private Character Player;
         private BulletManager BulletManager;
         private Texture2D sprite;
         private Vector2 position;
@@ -20,7 +20,7 @@ namespace Resonant
 
         public Vector2 AimingAt { get { return mouse; } }
         public float Rotation { get; private set; }
-        public Gun(Player p, BulletManager bm)
+        public Gun(Character p, BulletManager bm)
         {
             Player = p;
             BulletManager = bm;
